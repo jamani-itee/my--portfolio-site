@@ -124,6 +124,24 @@ footer {
 }
 
 /* MOBILE RESPONSIVENESS */
+/* TABLET RESPONSIVENESS */
+@media (max-width: 768px) {
+    nav {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    nav ul {
+        gap: 15px;
+    }
+
+    main {
+        width: 100%;
+        padding: 15px;
+    }
+}
+
+/* MOBILE RESPONSIVENESS */
 @media (max-width: 600px) {
     nav {
         flex-direction: column;
@@ -136,12 +154,34 @@ footer {
         text-align: center;
     }
 
+    header {
+        padding: 40px 15px;
+    }
+
     header h1 {
         font-size: 28px;
     }
 
+    header p {
+        font-size: 16px;
+    }
+
     main {
+        margin: 20px auto;
         padding: 10px;
+    }
+
+    section {
+        padding: 20px 15px;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    input,
+    textarea {
+        font-size: 16px;
     }
 }
 ```
