@@ -184,4 +184,21 @@ footer {
         font-size: 16px;
     }
 }
+/* Improve layout on smaller screens */
+@media (max-width: 768px) {
+    .navbar {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .hero {
+        padding: 30px 15px;
+        text-align: center;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
 ```
